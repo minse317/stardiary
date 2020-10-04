@@ -1,0 +1,79 @@
+body{
+    height: 100vh;
+    background: url("../pho/site.jpg") no-repeat center/cover;
+}
+
+@font-face {
+    font-family: 'GyeonggiBatang'; 
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/GyeonggiBatang.woff') format('woff'); 
+    font-weight: normal; 
+    font-style: normal; 
+    line-height: 200%;
+}
+.middle {
+    font-family: 'GyeonggiBatang'; 
+    position: absolute; left: 50%; top: 50%; 
+    transform: translate(-50%, -50%); text-align: center;  
+    color: aliceblue;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 100%;
+    height: 60%;
+    position:absolute;
+    top:50%; left:50%;
+    transform: translate(-50%, -50%);
+}
+.classname {max-width:3%;height:auto;
+    box-align: center;
+}
+.test {
+    font-size: 1.5rem;
+    animation: fadein 7s;
+    -moz-animation: fadein 7s; 
+    -webkit-animation: fadein 7s;
+    -o-animation: fadein 7s; 
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+img{
+    width: 3rem;
+    height: 3rem;
+    padding-inline-start: 3%;
+    animation: fadein 7s;
+    -moz-animation: fadein 7s; 
+    -webkit-animation: fadein 7s; /* Safari and Chrome */
+    -o-animation: fadein 7s; /* Opera */
+}
+
